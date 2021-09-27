@@ -7,7 +7,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages-site -d build"
+    "deploy": "gh-pages -b gh-pages-site -d dist"
   },
   "dependencies": {
     "core-js": "^3.6.5",
